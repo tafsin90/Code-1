@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #edede9;
+}
+h1{
+    background-color: #2b2d42;
+    color: #fff;
+    height: 6.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3.5rem;
+}
+
+
+.choices{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 9vmin;
+    gap: 4rem;
+    
+    
+}
+.choice{
+    height: 190px;
+    width: 190px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+    
+}
+.choice:hover{
+    cursor: pointer;
+    background-color: #2b2d42;
+    transform: scale(1.1);
+}
+
+img{
+    height: 180px;
+    width: 180px;
+    object-fit:cover;
+    border-radius: 50%;
+}
+
+
+.score-board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vmin;
+    gap: 10rem;
+    font-size: 2rem;
+    margin-top: 4rem;
+}
+
+#player-score, #bot-score, #draw-score{
+    font-size: 4rem;
+}
+
+
+.msg-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#msg{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #8d99ae;
+    height: 3rem;
+    margin-top: 3rem;
+    font-size: 3rem;
+    font-weight: bold;
+    padding: 1rem;
+    border-radius: 1.5rem;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 3rem;
+    width: 10rem;
+    padding: 1rem;
+    margin-top: 40px;
+    border-radius: 10px;
+
+    border: none;
+    background-color: #ef233c;
+
+    font-weight: bolder;
+    font-size: 1.3rem;
+    transition: transform 0.3s ease;
+}
+button:hover{
+    border: 3px solid black;
+    box-shadow: 0 5px 5px rgba(42, 41, 41, 0.822);
+    transform: scale(1.1);
+}
